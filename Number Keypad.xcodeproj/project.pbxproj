@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAAB2311AE82AA20061F448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAB2301AE82AA20061F448 /* AppDelegate.swift */; };
+		8BAAB2341AE82AA20061F448 /* Number_Keypad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAB2321AE82AA20061F448 /* Number_Keypad.xcdatamodeld */; };
+		8BAAB2361AE82AA20061F448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAB2351AE82AA20061F448 /* ViewController.swift */; };
+		8BAAB2391AE82AA20061F448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB2371AE82AA20061F448 /* Main.storyboard */; };
+		8BAAB23B1AE82AA20061F448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB23A1AE82AA20061F448 /* Images.xcassets */; };
+		8BAAB23E1AE82AA20061F448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB23C1AE82AA20061F448 /* LaunchScreen.xib */; };
+		8BAAB24A1AE82AA20061F448 /* Number_KeypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAB2491AE82AA20061F448 /* Number_KeypadTests.swift */; };
+		8BAAB25C1AE82ABA0061F448 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAB25B1AE82ABA0061F448 /* InterfaceController.swift */; };
+		8BAAB25E1AE82ABA0061F448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB25D1AE82ABA0061F448 /* Images.xcassets */; };
+		8BAAB2621AE82ABA0061F448 /* Number Keypad WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB2611AE82ABA0061F448 /* Number Keypad WatchKit App.app */; };
+		8BAAB26A1AE82ABA0061F448 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB2681AE82ABA0061F448 /* Interface.storyboard */; };
+		8BAAB26C1AE82ABA0061F448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAAB26B1AE82ABA0061F448 /* Images.xcassets */; };
+		8BAAB26F1AE82ABA0061F448 /* Number Keypad WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BAAB2571AE82ABA0061F448 /* Number Keypad WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BAAB2781AE82AF80061F448 /* NumberPadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAB2771AE82AF80061F448 /* NumberPadController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BAAB2441AE82AA20061F448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAAB2231AE82AA20061F448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAAB22A1AE82AA20061F448;
+			remoteInfo = "Number Keypad";
+		};
+		8BAAB2631AE82ABA0061F448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAAB2231AE82AA20061F448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAAB2601AE82ABA0061F448;
+			remoteInfo = "Number Keypad WatchKit App";
+		};
+		8BAAB26D1AE82ABA0061F448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAAB2231AE82AA20061F448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAAB2561AE82ABA0061F448;
+			remoteInfo = "Number Keypad WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BAAB2761AE82ABA0061F448 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8BAAB26F1AE82ABA0061F448 /* Number Keypad WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BAAB22B1AE82AA20061F448 /* Number Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAAB22F1AE82AA20061F448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAAB2301AE82AA20061F448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BAAB2331AE82AA20061F448 /* Number_Keypad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Number_Keypad.xcdatamodel; sourceTree = "<group>"; };
+		8BAAB2351AE82AA20061F448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BAAB2381AE82AA20061F448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BAAB23A1AE82AA20061F448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BAAB23D1AE82AA20061F448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8BAAB2431AE82AA20061F448 /* Number KeypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number KeypadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAAB2481AE82AA20061F448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAAB2491AE82AA20061F448 /* Number_KeypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_KeypadTests.swift; sourceTree = "<group>"; };
+		8BAAB2571AE82ABA0061F448 /* Number Keypad WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Number Keypad WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAAB25A1AE82ABA0061F448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAAB25B1AE82ABA0061F448 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8BAAB25D1AE82ABA0061F448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BAAB2611AE82ABA0061F448 /* Number Keypad WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Keypad WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAAB2671AE82ABA0061F448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAAB2691AE82ABA0061F448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8BAAB26B1AE82ABA0061F448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BAAB2771AE82AF80061F448 /* NumberPadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAAB2281AE82AA20061F448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB2401AE82AA20061F448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB2541AE82ABA0061F448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAAB2221AE82AA20061F448 = {
+			isa = PBXGroup;
+			children = (
+				8BAAB22D1AE82AA20061F448 /* Number Keypad */,
+				8BAAB2461AE82AA20061F448 /* Number KeypadTests */,
+				8BAAB2581AE82ABA0061F448 /* Number Keypad WatchKit Extension */,
+				8BAAB2651AE82ABA0061F448 /* Number Keypad WatchKit App */,
+				8BAAB22C1AE82AA20061F448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAAB22C1AE82AA20061F448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB22B1AE82AA20061F448 /* Number Keypad.app */,
+				8BAAB2431AE82AA20061F448 /* Number KeypadTests.xctest */,
+				8BAAB2571AE82ABA0061F448 /* Number Keypad WatchKit Extension.appex */,
+				8BAAB2611AE82ABA0061F448 /* Number Keypad WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAAB22D1AE82AA20061F448 /* Number Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB2301AE82AA20061F448 /* AppDelegate.swift */,
+				8BAAB2351AE82AA20061F448 /* ViewController.swift */,
+				8BAAB2371AE82AA20061F448 /* Main.storyboard */,
+				8BAAB23A1AE82AA20061F448 /* Images.xcassets */,
+				8BAAB23C1AE82AA20061F448 /* LaunchScreen.xib */,
+				8BAAB2321AE82AA20061F448 /* Number_Keypad.xcdatamodeld */,
+				8BAAB22E1AE82AA20061F448 /* Supporting Files */,
+			);
+			path = "Number Keypad";
+			sourceTree = "<group>";
+		};
+		8BAAB22E1AE82AA20061F448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB22F1AE82AA20061F448 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAAB2461AE82AA20061F448 /* Number KeypadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB2491AE82AA20061F448 /* Number_KeypadTests.swift */,
+				8BAAB2471AE82AA20061F448 /* Supporting Files */,
+			);
+			path = "Number KeypadTests";
+			sourceTree = "<group>";
+		};
+		8BAAB2471AE82AA20061F448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB2481AE82AA20061F448 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAAB2581AE82ABA0061F448 /* Number Keypad WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB2771AE82AF80061F448 /* NumberPadController.swift */,
+				8BAAB25B1AE82ABA0061F448 /* InterfaceController.swift */,
+				8BAAB25D1AE82ABA0061F448 /* Images.xcassets */,
+				8BAAB2591AE82ABA0061F448 /* Supporting Files */,
+			);
+			path = "Number Keypad WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8BAAB2591AE82ABA0061F448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB25A1AE82ABA0061F448 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAAB2651AE82ABA0061F448 /* Number Keypad WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB2681AE82ABA0061F448 /* Interface.storyboard */,
+				8BAAB26B1AE82ABA0061F448 /* Images.xcassets */,
+				8BAAB2661AE82ABA0061F448 /* Supporting Files */,
+			);
+			path = "Number Keypad WatchKit App";
+			sourceTree = "<group>";
+		};
+		8BAAB2661AE82ABA0061F448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAAB2671AE82ABA0061F448 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAAB22A1AE82AA20061F448 /* Number Keypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAAB24D1AE82AA20061F448 /* Build configuration list for PBXNativeTarget "Number Keypad" */;
+			buildPhases = (
+				8BAAB2271AE82AA20061F448 /* Sources */,
+				8BAAB2281AE82AA20061F448 /* Frameworks */,
+				8BAAB2291AE82AA20061F448 /* Resources */,
+				8BAAB2761AE82ABA0061F448 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAAB26E1AE82ABA0061F448 /* PBXTargetDependency */,
+			);
+			name = "Number Keypad";
+			productName = "Number Keypad";
+			productReference = 8BAAB22B1AE82AA20061F448 /* Number Keypad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BAAB2421AE82AA20061F448 /* Number KeypadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAAB2501AE82AA20061F448 /* Build configuration list for PBXNativeTarget "Number KeypadTests" */;
+			buildPhases = (
+				8BAAB23F1AE82AA20061F448 /* Sources */,
+				8BAAB2401AE82AA20061F448 /* Frameworks */,
+				8BAAB2411AE82AA20061F448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAAB2451AE82AA20061F448 /* PBXTargetDependency */,
+			);
+			name = "Number KeypadTests";
+			productName = "Number KeypadTests";
+			productReference = 8BAAB2431AE82AA20061F448 /* Number KeypadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BAAB2561AE82ABA0061F448 /* Number Keypad WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAAB2731AE82ABA0061F448 /* Build configuration list for PBXNativeTarget "Number Keypad WatchKit Extension" */;
+			buildPhases = (
+				8BAAB2531AE82ABA0061F448 /* Sources */,
+				8BAAB2541AE82ABA0061F448 /* Frameworks */,
+				8BAAB2551AE82ABA0061F448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAAB2641AE82ABA0061F448 /* PBXTargetDependency */,
+			);
+			name = "Number Keypad WatchKit Extension";
+			productName = "Number Keypad WatchKit Extension";
+			productReference = 8BAAB2571AE82ABA0061F448 /* Number Keypad WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		8BAAB2601AE82ABA0061F448 /* Number Keypad WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAAB2701AE82ABA0061F448 /* Build configuration list for PBXNativeTarget "Number Keypad WatchKit App" */;
+			buildPhases = (
+				8BAAB25F1AE82ABA0061F448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Keypad WatchKit App";
+			productName = "Number Keypad WatchKit App";
+			productReference = 8BAAB2611AE82ABA0061F448 /* Number Keypad WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAAB2231AE82AA20061F448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Zamzam;
+				TargetAttributes = {
+					8BAAB22A1AE82AA20061F448 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8BAAB2421AE82AA20061F448 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8BAAB22A1AE82AA20061F448;
+					};
+					8BAAB2561AE82ABA0061F448 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8BAAB2601AE82ABA0061F448 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 8BAAB2261AE82AA20061F448 /* Build configuration list for PBXProject "Number Keypad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BAAB2221AE82AA20061F448;
+			productRefGroup = 8BAAB22C1AE82AA20061F448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BAAB22A1AE82AA20061F448 /* Number Keypad */,
+				8BAAB2421AE82AA20061F448 /* Number KeypadTests */,
+				8BAAB2561AE82ABA0061F448 /* Number Keypad WatchKit Extension */,
+				8BAAB2601AE82ABA0061F448 /* Number Keypad WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BAAB2291AE82AA20061F448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAB2391AE82AA20061F448 /* Main.storyboard in Resources */,
+				8BAAB23E1AE82AA20061F448 /* LaunchScreen.xib in Resources */,
+				8BAAB23B1AE82AA20061F448 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB2411AE82AA20061F448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB2551AE82ABA0061F448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAB2621AE82ABA0061F448 /* Number Keypad WatchKit App.app in Resources */,
+				8BAAB25E1AE82ABA0061F448 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB25F1AE82ABA0061F448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAB26A1AE82ABA0061F448 /* Interface.storyboard in Resources */,
+				8BAAB26C1AE82ABA0061F448 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAAB2271AE82AA20061F448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAB2361AE82AA20061F448 /* ViewController.swift in Sources */,
+				8BAAB2341AE82AA20061F448 /* Number_Keypad.xcdatamodeld in Sources */,
+				8BAAB2311AE82AA20061F448 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB23F1AE82AA20061F448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAB24A1AE82AA20061F448 /* Number_KeypadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB2531AE82ABA0061F448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAAB2781AE82AF80061F448 /* NumberPadController.swift in Sources */,
+				8BAAB25C1AE82ABA0061F448 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BAAB2451AE82AA20061F448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAAB22A1AE82AA20061F448 /* Number Keypad */;
+			targetProxy = 8BAAB2441AE82AA20061F448 /* PBXContainerItemProxy */;
+		};
+		8BAAB2641AE82ABA0061F448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAAB2601AE82ABA0061F448 /* Number Keypad WatchKit App */;
+			targetProxy = 8BAAB2631AE82ABA0061F448 /* PBXContainerItemProxy */;
+		};
+		8BAAB26E1AE82ABA0061F448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAAB2561AE82ABA0061F448 /* Number Keypad WatchKit Extension */;
+			targetProxy = 8BAAB26D1AE82ABA0061F448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BAAB2371AE82AA20061F448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAAB2381AE82AA20061F448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BAAB23C1AE82AA20061F448 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAAB23D1AE82AA20061F448 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8BAAB2681AE82ABA0061F448 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAAB2691AE82ABA0061F448 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BAAB24B1AE82AA20061F448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BAAB24C1AE82AA20061F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BAAB24E1AE82AA20061F448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Number Keypad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BAAB24F1AE82AA20061F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Number Keypad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BAAB2511AE82AA20061F448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Number KeypadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Number Keypad.app/Number Keypad";
+			};
+			name = Debug;
+		};
+		8BAAB2521AE82AA20061F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Number KeypadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Number Keypad.app/Number Keypad";
+			};
+			name = Release;
+		};
+		8BAAB2711AE82ABA0061F448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Number_Keypad_WatchKit_Extension;
+				INFOPLIST_FILE = "Number Keypad WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		8BAAB2721AE82ABA0061F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Number_Keypad_WatchKit_Extension;
+				INFOPLIST_FILE = "Number Keypad WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		8BAAB2741AE82ABA0061F448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Number Keypad WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8BAAB2751AE82ABA0061F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Number Keypad WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAAB2261AE82AA20061F448 /* Build configuration list for PBXProject "Number Keypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAAB24B1AE82AA20061F448 /* Debug */,
+				8BAAB24C1AE82AA20061F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAAB24D1AE82AA20061F448 /* Build configuration list for PBXNativeTarget "Number Keypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAAB24E1AE82AA20061F448 /* Debug */,
+				8BAAB24F1AE82AA20061F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BAAB2501AE82AA20061F448 /* Build configuration list for PBXNativeTarget "Number KeypadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAAB2511AE82AA20061F448 /* Debug */,
+				8BAAB2521AE82AA20061F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BAAB2701AE82ABA0061F448 /* Build configuration list for PBXNativeTarget "Number Keypad WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAAB2711AE82ABA0061F448 /* Debug */,
+				8BAAB2721AE82ABA0061F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BAAB2731AE82ABA0061F448 /* Build configuration list for PBXNativeTarget "Number Keypad WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAAB2741AE82ABA0061F448 /* Debug */,
+				8BAAB2751AE82ABA0061F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BAAB2321AE82AA20061F448 /* Number_Keypad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BAAB2331AE82AA20061F448 /* Number_Keypad.xcdatamodel */,
+			);
+			currentVersion = 8BAAB2331AE82AA20061F448 /* Number_Keypad.xcdatamodel */;
+			path = Number_Keypad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BAAB2231AE82AA20061F448 /* Project object */;
+}

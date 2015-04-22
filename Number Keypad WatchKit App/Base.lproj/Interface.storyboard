@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Number_Keypad_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="0" id="dhk-90-LB4"/>
+                        <button width="1" alignment="left" title="Enter Value" id="kjF-2m-4sy">
+                            <connections>
+                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="FXT-sH-zJQ"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="amountLabel" destination="dhk-90-LB4" id="eKu-0F-kcr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-386" y="168"/>
+        </scene>
+        <!--Done-->
+        <scene sceneID="37v-lK-6g1">
+            <objects>
+                <controller identifier="numberPadController" title="Done" id="Hfa-hM-AeB" customClass="NumberPadController" customModule="Number_Keypad_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="30" alignment="left" id="aDs-m1-ohP">
+                            <items>
+                                <label width="0.59999999999999998" height="1" alignment="left" text="0" textAlignment="right" id="yOY-XX-1m4"/>
+                                <button width="0.33300000000000002" height="1" alignment="right" title="C" id="hhU-al-g7q">
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="clearTapped" destination="Hfa-hM-AeB" id="Ma0-cU-Vtt"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch38mm" height="22"/>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="6Ak-TF-alV">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="1" id="Y4p-9E-Bg8">
+                                    <connections>
+                                        <action selector="oneTapped" destination="Hfa-hM-AeB" id="jHh-PX-HrL"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="2" id="8yT-eZ-bLc">
+                                    <connections>
+                                        <action selector="twoTapped" destination="Hfa-hM-AeB" id="ggJ-pL-hXd"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="3" id="Jpt-J3-Bdk">
+                                    <connections>
+                                        <action selector="threeTapped" destination="Hfa-hM-AeB" id="uMG-TH-mlu"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="8vE-5V-Fwd">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="4" id="Ikm-wV-Lo5">
+                                    <connections>
+                                        <action selector="fourTapped" destination="Hfa-hM-AeB" id="BIc-Ez-h4y"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="5" id="aF0-tm-HVa">
+                                    <connections>
+                                        <action selector="fiveTapped" destination="Hfa-hM-AeB" id="SBu-4B-k3v"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="6" id="KMs-C7-i5B">
+                                    <connections>
+                                        <action selector="sixTapped" destination="Hfa-hM-AeB" id="oof-0Z-sYM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="6R0-T7-cmY">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="7" id="abN-BH-hWV">
+                                    <connections>
+                                        <action selector="sevenTapped" destination="Hfa-hM-AeB" id="cQz-5C-J95"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="8" id="bTL-62-ncE">
+                                    <connections>
+                                        <action selector="eightTapped" destination="Hfa-hM-AeB" id="YDR-2e-aua"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="9" id="w2W-nX-hrc">
+                                    <connections>
+                                        <action selector="nineTapped" destination="Hfa-hM-AeB" id="4Uh-HW-V7o"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="30" alignment="left" id="BBs-z5-AOf">
+                            <items>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="." id="IKb-i2-xkh">
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="decimalTapped" destination="Hfa-hM-AeB" id="xlR-Pg-v9X"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="0" id="1A6-nU-kRn">
+                                    <connections>
+                                        <action selector="zeroTapped" destination="Hfa-hM-AeB" id="XRK-5H-0jS"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33300000000000002" height="1" alignment="left" title="+/-" id="D1c-jS-QS6">
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="positiveNegativeTapped" destination="Hfa-hM-AeB" id="S3V-4t-pnf"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch38mm" height="22"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="amountLabel" destination="yOY-XX-1m4" id="uHg-Et-7n2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-386" y="481.5"/>
+        </scene>
+    </scenes>
+</document>
